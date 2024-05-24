@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>divImage</title>
+    <style>
+        img{
+            border-radius: 50%;
+            height: 150px;
+            margin-top: 20px;
+            padding: auto;
+        }
+        .mycontainer{
+            width: 75%;
+            overflow: auto;
+            text-align: center;
+            font-family: Arial,  sans-serif;
+            padding: 50px;
+            margin: auto;
+            display: flex;
+
+        }
+        .innerdiv{
+            width: 33%;
+            float: left;
+   
+        }
+        .mycontainer2{
+            width: 75%;
+            overflow: auto;
+            text-align: center;
+            font-family: Arial,  sans-serif;
+            padding: 50px;
+            margin: auto;
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="mycontainer">
+            <div class="innerdiv" style="background-color: #F0F0F0;">
+                <img src="vin.jpeg" alt="Vin Diesel">
+                <h4>Vin Diesel</h4>
+                <p style="margin-bottom: 20px;">Actor and Film Producer</p>
+            </div>
+            <div class="innerdiv" style="background-color: white;">
+                <img src="rock.jpeg" style="height: 150px; border-radius: 50%;" alt="Dwayne">
+                <h4>Dwayne Johnson</h4>
+                <p style="margin-bottom: 20px;">Actor and Bussinessman</p>
+            </div>
+            <div class="innerdiv" style="background-color: white;">
+                <img src="jr.jpeg" style="height: 150px;" alt="Robert Downey">
+                <h4>Robert Downey Jr.</h4>
+                <p style="margin-bottom: 20px;">Actor</p>
+            </div>
+        </div>
+        <div class="mycontainer2">
+            <div class="innerdiv" style="background-color: white;">
+                <img src="chris.jpeg" style="height: 150px;" alt="Chris">
+                <h4>Chris Hemsworth</h4>
+                <p style="margin-bottom: 20px;">Australian Actor</p>
+            </div>
+            <div class="innerdiv" style="background-color: white;">
+                <img src="evan.jpeg" style="height: 150px;" alt="Evans">
+                <h4>Chris Evans</h4>
+                <p style="margin-bottom: 20px;">American Actor</p>
+            </div>
+            <div class="innerdiv" style="background-color: #F0F0F0;">
+                <img src="ryan.jpeg" style="height: 150px;" alt="Ryan">
+                <h4>Ryan Gosling</h4>
+                <p style="margin-bottom: 20px;">Canadian Actor</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
