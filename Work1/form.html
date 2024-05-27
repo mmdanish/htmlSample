@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body{
+            margin: 0;
+            display: flex;
+            background-color: orchid;
+            align-items: center;
+            justify-content: center;
+        }
+        .container{
+            display: flex;
+            margin-top: 10%;
+            background-color: black;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 2);;
+        }
+        .form-container{
+            display: flex;
+            margin-top: 20px;
+            margin-left: 50px;
+            height: 100%;
+            width: 350px;
+            background-color: black;
+            border-radius: 5px;
+            
+        }
+        h3{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: white;
+        }
+        ::placeholder{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        input[type="text"]{
+            margin-top: 20px;
+            font-size: 16px;
+            border: none;
+            padding: 5px;
+            padding-right: 45px;
+            background: transparent;
+            box-sizing: border-box;
+            color:#fff;
+            display: block;
+            border-bottom: 1px solid grey;
+            outline: none;
+        }
+        form{
+            margin-top: 20px;
+            align-items: center;
+            
+        }
+        select{
+            margin-top: 20px;
+            font-size: 15px;
+            border: none;
+            padding: 5px;
+            background: transparent;
+            box-sizing: border-box;
+            color:#fff;
+            display: block;
+            border-bottom: 1px solid grey;
+            outline: none;
+            font-family: 'Times New Roman', Times, serif;
+            padding-right: 117px;
+        }
+        input[type="email"]{
+            margin-top: 20px;
+            font-size: 15px;
+            border: none;
+            padding: 5px;
+            background: transparent;
+            box-sizing: border-box;
+            color:#fff;
+            display: block;
+            border-bottom: 1px solid grey;
+            outline: none;
+            padding-right: 57px;
+        }
+        input[type="submit"]{
+            margin-top: 30px;
+            padding: 10px;
+            width: 100px;
+            margin-left: 25%;
+            border: 1px solid grey;
+            border-radius: 50px;
+            background-color: rgb(93, 218, 93);
+            color: white;
+            margin-bottom: 30px;
+        }
+        
+        
+        .image-container img {
+            width: 350px;
+            height: 500px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img src="Image1.jpeg" alt="Image">
+        </div>
+        <div class="form-container">
+            <form>
+                <h3>Registration Info</h3>
+                <div>
+                    <input type="text" name="name" placeholder="Name" required> 
+                    <input type="text" name="address" placeholder="Address" required>
+                    <input type="text" name="zipcode" placeholder="Zip Code" required>
+                    <select name="States" required> 
+                        <option value="" disabled selected>State</option>
+                        <option value="state">Kerala</option>
+                        <option value="state">Karnataka</option>
+                        <option value="state">Maharashtra</option>
+                        <option value="state">Tamil Nadu</option>
+                    </select>
+                    <input type="text" name="username" placeholder="Username(6-8 characters)" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
