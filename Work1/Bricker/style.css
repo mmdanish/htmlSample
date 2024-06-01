@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    font-family: Arial,  sans-serif;
+    background-color: #022a3a;
+}
+
+header {
+    background-color: #022a3a;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-left: 50px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo h1 {
+    padding-bottom: 10px;
+}
+
+.logo svg {
+    padding-bottom: 10px;
+}
+
+nav ul {
+    font-weight: bold;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin-left: 20px
+    
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin-right: 30px;
+    color: silver;
+}
+
+nav ul li a:hover{
+    background-color: #f00;
+    color: white;
+}
+
+.main {
+    position: relative;
+    background-image: url('images/image1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 0;
+}
+
+.main-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.main-content h1 {
+    width: 80%;
+    background-color: red;
+    text-align: left;
+    font-size: 40px;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.main-content p {
+    font-size: 1.2em;
+    margin: 10px 0 0;
+    background-color: white;
+    color: #022a3a;
+    padding: 10px;
+}
+.main-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 600px; 
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.feature {
+    background-color: #f00;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.feature i {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.feature:nth-child(2) {
+    background-color: #055879;
+}
+
+.feature:nth-child(3) {
+    background-color: #f0a500;
+}
+
+.feature:nth-child(4) {
+    background-color: #00a896;
+}
+
+.image-section {
+    margin-left: 20px;
+    padding-top: 15px;
+}
+
+.image-section img {
+    width: 690px;
+    height: 500px;
+    padding-bottom: 11px;
+}

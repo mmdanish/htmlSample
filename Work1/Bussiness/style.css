@@ -1,0 +1,151 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    margin-left: 125px;
+    color: white;
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #2142f9;
+}
+.header nav{
+    padding: 5px;
+    margin-left: 80px;
+}
+.header ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.header a:hover{
+    background-color: white;
+    color: black;
+}
+.container1{
+    background-color: #2142f9;
+    flex-wrap: wrap;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+h1{
+    color: white;
+    
+}
+.caption{
+    float: left;
+    margin-top: 5%;
+    margin-left:120px;
+}
+p{
+    color: white;
+    opacity: 75%;
+}
+img{
+    margin-left: 100px;
+    margin-top: 2%;
+    height: 350px;
+} 
+.img{
+    padding: 50px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.container2 img{
+    width: 500px;
+    height: 350px;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;  
+    
+}
+.img2{
+    width: 100%;
+    max-width: 500px;
+    height: auto; 
+}
+.container2 img{
+    padding-top: 60px;
+}
+.caption2{
+    margin-left: 80px;
+    margin-top: 80px;
+}
+.caption2 span{
+    color: blue;
+}
+.caption2 h1{
+    color: black;
+}
+.get-started-btn{
+    background-color: #fff;
+    color: #2142f9;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 2px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.get-started-btn:hover{
+    background-color: #96a5fa;
+    color: white;
+}
+.watch-intro-link{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    padding:10px 20px;
+    border: none;
+    display: inline-block;
+}
+.caption a:hover{
+    color: black;
+}
+.tab-btn{
+    background-color: #fff;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 5px;
+    color: black;    
+}
+.tab-btn:hover{
+    background-color: #2142f9;
+    color: white;
+}
+.tab-container{
+    display: flex;
+    margin-bottom: 10px;
+    background-color: #e0e0e0;
+    padding: 10px;
+    width: 80%;
+    flex-wrap: wrap;
+    border-radius: 2px
+    
+}
+.para p{
+    color: black;
+    width: 85%;
+    opacity: 50%;
+    box-sizing: border-box;
+}
