@@ -40,3 +40,83 @@ body {
     background-color: #2142f9;
     color: white;
 }
+
+@media (max-width: 1199px) {
+    .container-fluid {
+        padding: 20px;
+    }
+
+    .caption h2 {
+        font-size: 1.5rem;
+    }
+
+    .caption2 h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .caption, .caption2 {
+        text-align: center;
+    }
+
+    .get-started-btn {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .watch-intro-link {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .tab-btn {
+        display: block;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 767px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col-md-6 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .container-fluid.bg-primary {
+        text-align: center;
+    }
+
+    .list-unstyled {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .list-unstyled li {
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 575px) {
+    .container-fluid {
+        padding: 10px;
+    }
+
+    .get-started-btn {
+        padding: 10px;
+    }
+
+    .tab-btn {
+        padding: 5px;
+    }
+
+    .caption h2, .caption2 h2 {
+        font-size: 1.25rem;
+    }
+}
