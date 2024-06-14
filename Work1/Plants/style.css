@@ -1,0 +1,47 @@
+.font-family-belleza {
+    font-family: 'Belleza';
+}
+
+.btn-custom {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px 30px;
+}
+
+.btn-custom:hover { 
+    background-color: black;
+    color: white;
+    text-decoration: underline;
+}
+
+.font-family-nunito {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.font-family-lora {
+    font-family: 'lora';
+}
+
+.nav-link:hover {
+    text-decoration: underline !important;
+}
+
+.rating {
+    margin-top: -20px;
+}
+
+input[type="email"]{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+input[type="email"]::placeholder {
+    color: #999;
+  }
+
+
+
