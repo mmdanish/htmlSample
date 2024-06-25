@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real estate landing page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand ps-5" href="#">
+                <img src="images/Group 13.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav text-center">
+                    <li class="nav-item">
+                        <a class="nav-link mx-5" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-5" href="#">Residence</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-5" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-5" href="#">Agents</a>
+                    </li>
+                    <li class="nav-item dropdown language-dropdown">
+                        <a class="nav-link dropdown-toggle mx-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Eng <img src="images/Mask group.png" alt="English">
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Esp <img src="images/spnflag.png" alt="Spanish"></a></li>
+                            <li><a class="dropdown-item" href="#">Fra <img src="images/frenchflag.png" alt="French"></a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-sign-up px-5 py-3 rounded-0" href="#">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="hero-section d-flex align-items-center justify-content-center pt-0">
+        <div class="container hero-content">
+            <h1 class="text-black fw-bold pb-3 text-lg-start">Find your <br> dream home</h1>
+            <p class="fs-5 text-lg-start">This is where you can find a dream <br>home of your choice without stress</p>
+        </div>
+        <div class="flat text-lg-end">
+            <img src="images/flat.webp" alt="Flat Image" style="height: auto; max-width: 100%;">
+        </div>
+    </section>
+    <div class="container search-box text-lg-start pb-5">
+        <form>
+            <h5 class="pb-4">Search the price you are looking for here</h5>
+            <div class="row g-3 text-center ms-3">
+                <div class="col-md-3">
+                    <div class="input-group">
+                        <input type="text" class="form-control border-end-0 py-3" placeholder="Location">
+                        <span class="input-group-text bg-white"><i class="bi bi-geo-alt opacity-75"></i></span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="input-group">
+                        <input type="text" class="form-control border-end-0 py-3" placeholder="Type">
+                        <span class="input-group-text bg-white"><i class="bi bi-house-door-fill opacity-50"></i></span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="input-group">
+                        <input type="text" class="form-control border-end-0 py-3" placeholder="Price">
+                        <span class="input-group-text bg-white"><i class="bi bi-currency-dollar opacity-75"></i></span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <button type="submit" class="btn btn-dark btn-block py-3 rounded-0 px-5">Search Now</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="container">
+        <div class="row counter">
+            <div class="col-md-4 counter-item">
+                <div class="counter-number">2100+</div>
+                <div class="counter-text">Premium Houses</div>
+            </div>
+            <div class="col-md-4 counter-item">
+                <div class="counter-number">2000+</div>
+                <div class="counter-text">Happy Customers</div>
+            </div>
+            <div class="col-md-4 counter-item">
+                <div class="counter-number">50+</div>
+                <div class="counter-text">Awards</div>
+            </div>
+        </div>
+    </div>
+    <!-- popular section -->
+    <div class="container popular-section">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div class="popular-title">Popular</div>
+                <div class="main-heading">Our popular residence</div>
+            </div>
+            <div class="col-md-6 d-flex justify-content-md-end justify-content-start">
+                <a href="#" class="explore-link">
+                    Explore All <span class="arrow">&rarr;</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Buy now cards -->
+    <div class="container my-5">
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card property-card">
+                    <img src="images/card1.png" class="card-img-top property-image" alt="Property Image">
+                    <div class="property-details">
+                        <p class="property-location"><i class="bi bi-geo-alt"></i> Agoda, Surulere Lagos</p>
+                        <p class="property-features"><i class="bi bi-house-door"></i> 4 Bed &nbsp; <i class="bi bi-arrows-fullscreen"></i> 10x10 &nbsp; <i class="bi bi-rulers"></i> 2000m²</p>
+                        <div class="property-actions">
+                            <p class="property-price">₦750,000.00</p>
+                            <button class="btn btn-buy">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card property-card">
+                    <img src="images/card2.png" class="card-img-top property-image" alt="Property Image">
+                    <div class="property-details">
+                        <p class="property-location"><i class="bi bi-geo-alt"></i> Agoda, Surulere Lagos</p>
+                        <p class="property-features"><i class="bi bi-house-door"></i> 4 Bed &nbsp; <i class="bi bi-arrows-fullscreen"></i> 10x10 &nbsp; <i class="bi bi-rulers"></i> 2000m²</p>
+                        <div class="property-actions">
+                            <p class="property-price">₦750,000.00</p>
+                            <button class="btn btn-buy">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card property-card">
+                    <img src="images/card3.png" class="card-img-top property-image" alt="Property Image">
+                    <div class="property-details">
+                        <p class="property-location"><i class="bi bi-geo-alt"></i> Agoda, Surulere Lagos</p>
+                        <p class="property-features"><i class="bi bi-house-door"></i> 4 Bed &nbsp; <i class="bi bi-arrows-fullscreen"></i> 10x10 &nbsp; <i class="bi bi-rulers"></i> 2000m²</p>
+                        <div class="property-actions">
+                            <p class="property-price">₦750,000.00</p>
+                            <button class="btn btn-buy">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Our Services -->
+    <div class="services-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Left Side (Text) -->
+                <div class="col-md-4">
+                    <h2 class="services-title">Our Services</h2>
+                    <p class="services-description">
+                        This is where you can <br> find a dream home of <br> your choice without <br> stress. 
+                        This is where you can <br> find a dream home of <br> your choice without <br> stress.
+                    </p>
+                    <button class="btn btn-see-more px-5 rounded-0">See More</button>
+                </div>
+                <!-- Right Side (Images) -->
+                <div class="col-md-8">
+                    <div class="row g-3">
+                        <div class="col-md-4">
+                            <img src="images/quality residence.png" alt="Quality Residence" class="services-image">
+                            <p class="services-image-caption">Quality Residence</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="images/top notch.png" alt="Top notch Facilities" class="services-image">
+                            <p class="services-image-caption">Top notch Facilities</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="images/top notch.png" alt="Affordable Prices" class="services-image">
+                            <p class="services-image-caption">Affordable Prices</p>
+                        </div>
+                    </div>
+                    <!-- Navigation Arrows -->
+                    <div class="navigation-arrows">
+                        <button class="arrow-button"><i class="bi bi-arrow-left"></i></button>
+                        <button class="arrow-button"><i class="bi bi-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid choose ">
+        <div class="container">
+        <div class="con1 text-center mb-4">
+            <h2 class="pt-5 pb-3 fw-bold text-black">Why choose us</h2>
+            <p class="text-muted">Our goal is at the heart of all that we do. We make our clients happiness our sole priority.</p>
+        </div>
+
+        <div class="row gy-4 mt-5">
+            <div class="col-md-4">
+                <div class="feature-card bg-white">
+                    <div class="d-flex ">
+                    <img src="images/icon1.png" alt="Insurance">
+                    <h5 class="fw-bold">Insurance</h5>
+                   </div>
+                    <div class="para rounded-2">
+                    <p class="text-lg-start px-3 py-3">This is where you can find a dream home of your choice without stThis is where you can find a dream home of your choice without stressresThis is where you </p>
+                   </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-card bg-white">
+                    <div class="d-flex ">
+                    <img src="images/icon1.png" alt="Insurance">
+                    <h5 class="fw-bold">Insurance</h5>
+                   </div>
+                    <div class="para rounded-2">
+                    <p class="text-lg-start px-3 py-3">This is where you can find a dream home of your choice without stThis is where you can find a dream home of your choice without stressresThis is where you </p>
+                   </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-card bg-white">
+                    <div class="d-flex">
+                    <img src="images/icon2.png" alt="Service engineers">
+                    <h5 class="fw-bold">Service engineers</h5>
+                   </div>
+                   <div class="para rounded-2">
+                   <p class="text-lg-start px-3 py-3">This is where you can find a dream home of your choice without stThis is where you can find a dream home of your choice without stressresThis is where you </p>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-card bg-white">
+                    <div class="d-flex">
+                    <img src="images/icon3.png" alt="24/7 customer service">
+                    <h5 class="fw-bold">24/7 customer service</h5>
+                   </div>
+                   <div class="para rounded-2">
+                    <p class="text-lg-start px-3 py-3">This is where you can find a dream home of your choice without stThis is where you can find a dream home of your choice without stressresThis is where you </p>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-card bg-white">
+                    <div class="d-flex">
+                    <img src="images/icon1.png" alt="Insurance">
+                    <h5 class="fw-bold">Insurance</h5>
+                    </div>
+                    <div class="para rounded-2">
+                    <p class="text-lg-start px-3 py-3">This is where you can find a dream home of your choice without stThis is where you can find a dream home of your choice without stressresThis is where you </p>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-card bg-white">
+                    <div class="d-flex">
+                    <img src="images/icon4.png" alt="Installment payment">
+                    <h5 class="fw-bold">Installment payment</h5>
+                </div>
+                <div class="para rounded-2">
+                    <p class="text-lg-start px-3 py-3">This is where you can find a dream home of your choice without stThis is where you can find a dream home of your choice without stressresThis is where you </p>
+                </div>
+                </div>
+            </div>
+            <div class="see-all py-4 fs-5">
+                <a href="#">See All →</a>
+            </div>
+        </div> 
+    </div> 
+    </div>
+
+    <div class="container team-section">
+        <p class="text text-black fs-4 mb-2">Our team</p>
+        <h2 class="text-black">Meet our team</h2>
+        <p class="text-muted fs-5 mt-4 pb-5">Our goal is at the heart of all that we do. We make our <br>clients happiness our sole priority.</p>
+
+        <div class="row justify-content-center mt-4">
+            <div class="main col-md-4 mb-4">
+                <div class="card team-card p-0">
+                    <img src="images/image1.png" class="card-img-top" alt="Project Manager">
+                </div>
+                <h5 class="pt-4 opacity-75">Project Manager</h5>
+            </div>
+            <div class="main col-md-4 mb-4">
+                <div class="card team-card p-0">
+                    <img src="images/image2.png" class="card-img-top" alt="Marketing Head">
+                </div>
+                <h5 class="pt-4 opacity-75">Marketing Head</h5>
+            </div>
+            <div class="main col-md-4 mb-4">
+                <div class="card team-card p-0">
+                    <img src="images/image3.png" class="card-img-top" alt="Head of Services">  
+                </div>
+                <h5 class="pt-4 opacity-75">Head of Services</h5>
+            </div>
+        </div>
+    </div>
+
+    <section class="testimonials-section text-center py-5">
+        <div class="container">
+            <h5>Testimonials</h5>
+            <h3>What clients says</h3>
+            <p>Our goal is at the heart of all that we do. We make our clients happiness our sole priority.</p>
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row justify-content-center">
+                      <div class="col-md-3 col-sm-6">
+                        <div class="card">
+                          <div class="reviews d-flex align-items-center mb-3">
+                            <img src="images/testimonial.png" alt="Profile Image" class="profile-img me-3">
+                            <div class="profile-info">
+                              <h5 class="mb-0 fs-6">Kim Davids</h5>
+                              <small class="text-muted float-start">Banker</small>
+                            </div>
+                            <div class="rating ps-3 mb-4">
+                              <img src="images/Frame 44.png" alt="" height="auto" width="69px">
+                            </div>
+                          </div>
+                          <div class="testip">
+                            <p class="text-muted text-lg-start">This is where you can find a dream home of your choice without stress. This is where you can find a dream home of your choice without stress. This is where you can find a dream home of your choice without stress.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row justify-content-center">
+                      <div class="col-md-3 col-sm-6">
+                        <div class="card">
+                          <div class="reviews d-flex align-items-center mb-3">
+                            <img src="images/testimonial.png" alt="Profile Image" class="profile-img me-3">
+                            <div class="profile-info">
+                              <h5 class="mb-0 fs-6">John</h5>
+                              <small class="text-muted float-start">Banker</small>
+                            </div>
+                            <div class="rating ps-3 mb-4">
+                              <img src="images/Frame 44.png" alt="" height="auto" width="69px">
+                            </div>
+                          </div>
+                          <div class="testip">
+                            <p class="text-muted text-lg-start">This is where you can find a dream home of your choice without stress. This is where you can find a dream home of your choice without stress. This is where you can find a dream home of your choice without stress.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row justify-content-center">
+                      <div class="col-md-3 col-sm-6">
+                        <div class="card">
+                          <div class="reviews d-flex align-items-center mb-3">
+                            <img src="images/testimonial.png" alt="Profile Image" class="profile-img me-3">
+                            <div class="profile-info">
+                              <h5 class="mb-0 fs-6">Antony</h5>
+                              <small class="text-muted float-start">Banker</small>
+                            </div>
+                            <div class="rating ps-3 mb-4">
+                              <img src="images/Frame 44.png" alt="" height="auto" width="69px">
+                            </div>
+                          </div>
+                          <div class="testip">
+                            <p class="text-muted text-lg-start">This is where you can find a dream home of your choice without stress. This is where you can find a dream home of your choice without stress. This is where you can find a dream home of your choice without stress.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row justify-content-center">
+                      <div class="col-md-3 col-sm-6">
+                        <div class="card">
+                          <div class="reviews d-flex align-items-center mb-3">
+                            <img src="images/testimonial.png" alt="Profile Image" class="profile-img me-3">
+                            <div class="profile-info">
+                              <h5 class="mb-0 fs-6">Michel</h5>
+                              <small class="text-muted float-start">Banker</small>
+                            </div>
+                            <div class="rating ps-3 mb-4">
+                              <img src="images/Frame 44.png" alt="" height="auto" width="69px">
+                            </div>
+                          </div>
+                          <div class="testip">
+                            <p class="text-muted text-lg-start">This is where you can find a dream home of your choice without stress. This is where you can find a dream home of your choice without stress. This is where you can find a dream home of your choice without stress.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            <div class="d-flex justify-content-center my-5">
+                <a href="#testimonialCarousel"role="button" data-bs-slide="prev"><button class="btn btnp btn-primary mx-2">←</button></a>
+                <a href="#testimonialCarousel"role="button" data-bs-slide="next"><button class="btn btnp btn-primary mx-2">→</button></a>
+            </div>
+        </div>
+      <h1 class="text-center">Ready to choose your <br>dream home?</h1>
+      <button class="btn start my-5 py-3 px-4 rounded-0 fw-bold">Get Started</button>
+    </section>
+
+    <footer class="footer text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 text-lg-start mb-5">
+              <div class="logo">
+                <img src="images/footer icon.png" alt="Logo">
+              </div>
+              <p class="py-4">Our goal is at the <br>heart of all that we do.</p>
+              <div class="social-icons">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h5 class="pb-4">Page</h5>
+              <ul class="list-unstyled">
+                <li class="pb-4"><a href="#">Homepage</a></li>
+                <li class="pb-4"><a href="#">Features</a></li>
+                <li class="pb-4"><a href="#">About Us</a></li>
+                <li class="pb-4"><a href="#">Agents</a></li>
+              </ul>
+            </div>
+            <div class="col-md-2">
+              <h5 class="pb-4">Support</h5>
+              <ul class="list-unstyled">
+                <li class="pb-4"><a href="#">FAQ,s</a></li>
+                <li class="pb-4"><a href="#">Support Center</a></li>
+                <li class="pb-4"><a href="#">Security</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h5 class="pb-4">Contact Us</h5>
+              <ul class="list-unstyled">
+                <li class="pb-4"><a href="tel:+2347014498006">+234-70-1449-8006</a></li>
+                <li class="pb-4"><a href="mailto:homie@gmail.com">homie@gmail.com</a></li>
+                <li class="pb-4"><a href="#">23, Ali express way Lagos, Nigeria</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <small class="pt-4">&copy; 2022. All Rights Reserved</small>
+      </footer>
+</body>
+</html>

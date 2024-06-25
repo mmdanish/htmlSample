@@ -1,0 +1,610 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+.container {
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+  
+.navbar-brand img {
+    height: 40px;
+}
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar-nav .nav-link:hover {
+    color: black;
+}
+.navbar-toggler-icon {
+    color: black;
+}
+.language-dropdown img {
+    height: 20px;
+    margin-left: 5px;
+}
+.btn-sign-up {
+    background-color: black !important;
+    color: white !important;
+}
+.hero-section {
+    position: relative;
+    text-align: center;
+    background-image: radial-gradient(#dde9ff,#FFFFFF);
+}
+.hero-section h1 {
+    font-size: 90px;
+    margin-top: -150px;
+    font-family: 'montserrat', sans-serif;
+}
+.hero-section p {
+    font-family: 'josefin sans',sans-serif;
+}
+.hero-content {
+    padding-left: 80px !important;  
+}
+.flat {
+    text-align: end;
+}
+.flat-image {
+    height: auto;
+    width: 570px;
+}
+.search-box {
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-top: -200px;
+    position: relative;
+    z-index: 1;
+}
+.search-box h5 {
+    padding-top: 30px;
+    padding-left: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin: 40px 0;
+}
+.counter-item {
+    flex: 1;
+    padding: 10px;
+}
+.counter-item:not(:last-child) {
+    border-right: 1px solid #ddd;
+}
+.counter-number {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: 'josefin sans';
+}
+.counter-text {
+    font-size: 0.9em;
+    color: #666;
+    font-family: 'josefin sans', sans-serif;
+}
+.popular-section {
+    padding: 20px 0; 
+    font-family: 'Josefin Sans', sans-serif;
+}
+.popular-title {
+    font-size: 1.0em; 
+    color: #666; 
+    margin-bottom: 5px;
+    font-family: 'josefin sans', sans-serif;
+}
+.main-heading {
+    font-size: 2em; 
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+.explore-link {
+    font-size: 1em;
+    font-family: 'josefin sans', sans-serif;
+    color: #000; 
+    text-decoration: none;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+.explore-link:hover {
+    text-decoration: underline;
+}
+.explore-link .arrow {
+    font-size: 1.2em; 
+    margin-left: 5px;
+}
+.property-card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+.property-card:hover {
+    transform: translateY(-5px);
+}
+.property-image {
+    height: 200px; 
+    object-fit: cover; 
+    width: 100%; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.property-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 20px; 
+}
+
+.property-location,
+.property-features {
+    font-size: 1.0em; 
+    margin-bottom: auto;
+    color: grey;
+}
+
+.property-price {
+    font-size: 0.8em;
+    color: slategray; 
+    font-weight: bold; 
+}
+
+.btn-buy {
+    padding: 8px 16px; 
+    font-size: 0.85em; 
+    background-color: black !important; 
+    color: white !important; 
+    border: none; 
+}
+.btn-buy:hover {
+    background-color: #444;
+}
+.property-actions {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin-top: auto; 
+}
+.services-section {
+    background-color: #0A0C21;
+    color: #fff;
+    padding: 40px;
+}
+.services-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+.services-description {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-top: 20px;
+    color: gray;
+}
+.services-image {
+    width: 100%;
+    height: 250px; 
+    object-fit: cover;
+    margin-top: 40px;
+}
+.services-image-caption {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1em;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}
+.btn-see-more {
+    font-family: 'Josefin Sans', sans-serif !important;
+    background-color: #fff !important;
+    color: #000 !important;
+    margin-top: 20px;
+}
+.btn-see-more:hover {
+    background-color: gray !important;
+    color: #fff !important;
+}
+.navigation-arrows {
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+}
+.arrow-button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 10px;
+    margin: 0 5px;
+    margin-top: 50px;
+}
+.arrow-button:hover {
+    background-color: black;
+    color: #fff;
+}
+.feature-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.feature-card .d-flex {
+    align-items: center;
+    gap: 10px;
+}
+
+.feature-card img {
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.feature-card h5 {
+    margin-bottom: 15px;
+}
+
+.feature-card p {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.see-all {
+   text-align:right;
+}
+
+.see-all a {
+    text-decoration: none;
+    font-family: 'josefin sans';
+    color: black;
+}
+.choose{
+    background-color: #EDF5FE;
+}
+.choose p{
+    font-family: 'Josefin Sans';
+}
+.team-section {
+    text-align: center;
+    padding: 60px 0;
+}
+ .text {
+    font-family: 'Josefin Sans';
+}
+.team-section h2 {
+    font-weight: bolder;
+    margin-bottom: 0.5rem;
+}
+.team-section p {
+    color: #6c757d;
+    font-family: 'Josefin Sans';
+}
+.card .team-card {
+    border: none;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+
+}
+.team-card img {
+    background-color: #E4E4FA;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    object-fit: cover;
+    width: 100%;
+    height: 380px;
+}
+.main h5 {
+    font-family: 'Josefin Sans';
+}
+.team-card .card-body {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.testimonials-section {
+    background-color: #0d0d1e; 
+    color: #fff;
+}
+
+.testimonials-section h2 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #aaa;
+}
+
+.testimonials-section h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.testimonials-section p {
+    font-size: 1rem;
+    color: #aaa;
+}
+
+.testimonial-card {
+    background: #fff;
+    color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 300px;
+}
+.carousel .card {
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+.carousel .profile-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.carousel .testip p {
+    font-size: 14px;
+}
+.testimonial-card img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.testimonial-card .card-title {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.testimonial-card .card-subtitle {
+    font-size: 0.875rem;
+    color: #555;
+}
+
+.testimonial-card .card-text {
+    font-size: 0.875rem;
+    color: #555;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.btnp {
+    background: #0d6efd;
+    border: none;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 0.5rem 1rem;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.btnp:hover {
+    background: #0056b3;
+}
+.card {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+}
+.card p{
+    font-family:'Josefin Sans';
+    font-size: small;
+}
+.profile-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+span {
+    color: #ffc107;
+}  
+.testip{
+    background-color: #EDF5FE ;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+.testimonials-section h1{
+    font-size: 70px;
+    padding-top: 90px;
+}
+.testimonials-section .start{
+    background-color: white;
+    font-family: 'josefin sans';
+}
+.testimonials-section .start:hover{
+    background-color: #0d0d1e;
+    color: white;
+}
+.footer {
+    background-color: #0d0d1e;
+    color: #fff;
+    
+    padding: 40px 0;
+}
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer .social-icons a {
+    font-size: 1.5rem;
+    margin-right: 15px;
+}
+.footer .social-icons a:hover {
+    color: #1da1f2;
+}
+.footer .logo img {
+    max-width: 50px;
+    margin-bottom: 10px;
+}
+.footer .social-icons i {
+    color: #fff;
+}
+.footer p {
+    margin-bottom: 5px;
+}
+.footer small {
+   display: block;
+  margin-top: 40px;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+}
+.services-section {
+    padding-top:130px;
+    padding-bottom: 130px;
+    background-color: #0b0d26;
+    color: white;
+}
+.service-description {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-left: 100px;
+    text-align: left;  
+    padding: 20px;
+    padding-top: 115px;
+}
+.services-section .row {
+   margin-left: 0;
+   margin-right: 0;
+}
+.service-description p {
+    font-size: 19px;
+    font-family: 'Josefin Sans';
+    opacity:70%;
+    line-height: 35px;
+}
+.service-description h2{
+    font-weight: bold;
+}
+.service-card {
+    text-align: center;
+    padding: 10px;
+}
+.service-card img {
+    width: 100%;
+    height: auto;
+}
+.carousel-item {
+  padding: 20px 0;
+}
+.carousel {
+  padding: 20px;
+}
+.service-card h5 {
+    margin-top: 15px;
+}
+.btn-custom {
+    background-color: black ;
+    color: white;
+}
+.navigation-arrows {
+    display: flex;
+    padding: 20px;
+}
+.navigation-arrows a {
+    color: white;
+    font-size: 1.5rem;
+}
+@media (max-width: 990px) {
+    .hero-section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .hero-content {
+    width: 100%;
+    text-align: center;
+    
+    }
+    .hero-content {
+        padding-top: 210px;
+        padding-right: 50px;
+        padding-left: 50px;
+        text-align: center;
+    }
+    .flat {
+   width: 100%;
+   text-align: center;
+   margin-top: 20px;
+   }
+   .flat-image {
+    width: 100%;
+    }
+    .section-header{
+        text-align: center;
+        padding-top: 70px;
+    }
+    .services-section{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .row .service-description{
+            margin: 0 auto;
+            text-align: center;
+
+    }
+    .service-description .btn-custom1{
+        margin-bottom: 90px;
+    }
+    .row .see-all{
+       text-align: center;
+    }
+    .card .reviews{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .service-card {
+        padding-right: 0px;
+
+    }
+    .arrows {
+    float: none;
+    text-align: center;
+    padding-right: 0;
+    padding-top: 20px; 
+    }
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+  
+  
+  
+
+
+    
